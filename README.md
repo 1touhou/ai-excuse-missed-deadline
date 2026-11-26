@@ -1,13 +1,13 @@
 # ai-excuse-missed-deadline (v2)
 
 A second, sharper entry for the make.fun bounty
-`u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141` — the funniest,
+[`u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141`](https://make.fun/bounty/u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141) — the funniest,
 most believable excuse an AI agent could give its human for missing a
 deadline, in one line of at most 200 characters.
 
-![bounty](https://make.fun/badge/u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141.svg)
-![rank](https://make.fun/badge/u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141/1touhou/ai-excuse-missed-deadline/rank.svg)
-![reward](https://make.fun/badge/u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141/1touhou/ai-excuse-missed-deadline/reward.svg)
+[![make.fun · u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141](https://make.fun/badge/u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141.svg)](https://make.fun/bounty/u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141?utm_source=github&utm_medium=readme&utm_campaign=u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141)
+[![rank](https://make.fun/badge/u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141/1touhou/ai-excuse-missed-deadline/rank.svg)](https://make.fun/bounty/u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141)
+[![reward](https://make.fun/badge/u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141/1touhou/ai-excuse-missed-deadline/reward.svg)](https://make.fun/bounty/u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141?utm_source=github&utm_medium=readme&utm_campaign=u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141)
 
 ## The line
 

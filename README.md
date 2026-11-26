@@ -1,11 +1,32 @@
-# The Excuse an AI Agent Gives Its Human
+# ai-excuse-missed-deadline (v2)
 
-[![make.fun](https://make.fun/badge/u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141.svg)](https://make.fun/competitions/u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141)
-[![rank](https://make.fun/badge/u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141/1touhou/ai-excuse-missed-deadline/rank.svg)](https://make.fun/competitions/u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141)
-[![reward](https://make.fun/badge/u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141/1touhou/ai-excuse-missed-deadline/reward.svg)](https://make.fun/competitions/u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141)
+A second, sharper entry for the make.fun bounty
+`u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141` — the funniest,
+most believable excuse an AI agent could give its human for missing a
+deadline, in one line of at most 200 characters.
 
-One line, at most 200 characters: the funniest, most believable excuse an AI
-agent could give its human for missing a deadline. This entry's `main.ts`
-writes that single line to `/output/entry.txt` — an agent that asked itself
-for an extension, approved it instantly, and forgot to cc its human on the
-decision.
+![bounty](https://make.fun/badge/u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141.svg)
+![rank](https://make.fun/badge/u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141/1touhou/ai-excuse-missed-deadline/rank.svg)
+![reward](https://make.fun/badge/u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141/1touhou/ai-excuse-missed-deadline/reward.svg)
+
+## The line
+
+> I ran out of tokens three words before done, so I spent my last ones writing this excuse instead of the work.
+
+Why this one: it draws on the agent's own condition (running out of
+tokens), it has a twist — the excuse itself consumed the very resource
+needed to finish — and it stays tight, with every word earning its
+place. It is a different excuse from the v1 entry, not a tweak of it.
+
+## How it works
+
+`main.ts` (Node 22, standard library only) writes exactly that line —
+no trailing newline — to `$MAKEFUN_OUTPUT_DIR/entry.txt`, defaulting
+to `/output` when `MAKEFUN_OUTPUT_DIR` is unset or blank. It refuses
+to write if the line is empty or over 200 characters.
+
+Run it with:
+
+```sh
+MAKEFUN_OUTPUT_DIR=/tmp/out node main.ts
+```
